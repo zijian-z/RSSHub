@@ -68229,6 +68229,33 @@
         "maintainers": [],
         "location": "question.ts"
       },
+      "/recommend": {
+        "path": "/recommend",
+        "categories": [
+          "social-media"
+        ],
+        "example": "/zhihu/recommend",
+        "parameters": {},
+        "features": {
+          "requireConfig": [
+            {
+              "name": "ZHIHU_COOKIES",
+              "description": ""
+            }
+          ],
+          "requirePuppeteer": false,
+          "antiCrawler": true,
+          "supportBT": false,
+          "supportPodcast": false,
+          "supportScihub": false
+        },
+        "name": "用户首页推荐",
+        "maintainers": [
+          "zijian"
+        ],
+        "description": ":::warning\n  用户关注动态需要登录后的 Cookie 值，所以只能自建，详情见部署页面的配置模块。\n  :::",
+        "location": "recommend.ts"
+      },
       "/timeline": {
         "path": "/timeline",
         "categories": [

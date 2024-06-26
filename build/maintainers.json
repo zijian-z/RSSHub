@@ -6795,6 +6795,9 @@
     "Colin-XKL"
   ],
   "/zhihu/question/:questionId/:sortBy?": [],
+  "/zhihu/recommend": [
+    "zijian"
+  ],
   "/zhihu/timeline": [
     "SeanChao"
   ],
